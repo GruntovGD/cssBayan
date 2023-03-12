@@ -73,6 +73,7 @@ body{
   transition: 0.2s;
 }
 
+
 .element__input:checked ~ .title{
   color: white !important;
 }
@@ -86,6 +87,10 @@ body{
     transition: 0.4s;
     height: 50%;
     width: 50%;
+  }
+  .element:hover > .title > .tot > .cross{
+    transform: rotate(45deg);
+    transition: 0.2s;    
   }
   
   .accordion:hover > .element> .title > .tot > .cross{
