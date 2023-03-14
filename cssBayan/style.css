@@ -31,14 +31,12 @@ body{
   display: flex;
   flex-direction: column;
   
-  cursor: pointer;
-  position: relative;  
+  cursor: pointer;    
   
 }
 .element__input{
   width: 0;
-  height: 0;
-  position: absolute;
+  height: 0;  
   appearance: none;
   
 }
@@ -115,6 +113,15 @@ body{
 @media (max-width: 320px){
   body{
     font-size: 1rem; 
+  }
+  .element{
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;;
+  }
+  .element__input:checked ~ .title > .element__meme{  
+    transition: 0.2s;
+    height: 80%;
+    width: 80%;
+    margin-bottom: 0;
   }
 }
 .element__memes{
