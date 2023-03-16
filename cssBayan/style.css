@@ -77,7 +77,7 @@ body{
 }
 
 
-@media (min-width: 821px){
+@media (hover:hover){
   .cross{
     display: none;
   }
