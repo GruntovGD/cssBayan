@@ -76,7 +76,8 @@ body{
   color: white !important;
 }
 
-@media (min-width: 1920px){
+
+@media (min-width: 821px){
   .cross{
     display: none;
   }
